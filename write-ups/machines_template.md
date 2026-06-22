@@ -1,4 +1,4 @@
-# Machine Name
+# Machine
 
 ![Machine Badge](https://img.shields.io/badge/Machine-Name-blue)
 ![OS](https://img.shields.io/badge/OS-Linux-orange)
@@ -107,3 +107,4 @@ root.txt: ********************************
 - [Reference 1](url)
 - [Reference 2](url)
 
+Credit to template goes to : https://github.com/momenbasel/htb-writeups/blob/main/templates/machine-template.md
