@@ -2,7 +2,7 @@
 
 ![Machine Badge](https://img.shields.io/badge/Machine-Name-blue)
 ![OS](https://img.shields.io/badge/OS-Linux-orange)
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
 
 | Property | Value |
 |----------|-------|
