@@ -1,11 +1,17 @@
+<p align="center">
+  <img src="images/nimbuspwnd.png" />
+</p>
+
+![](image.png)
 # Nimbus
+
 
 ![Machine Badge](https://img.shields.io/badge/Machine-Name-blue)
 ![OS](https://img.shields.io/badge/OS-Linux-orange)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
 
-![nimbusvictory](images/nimbuspwn.png)
-https://labs.hackthebox.com/achievement/machine/2010960/912
+
+
 
 | Property | Value |
 |----------|-------|
