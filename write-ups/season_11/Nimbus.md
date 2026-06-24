@@ -4,6 +4,9 @@
 ![OS](https://img.shields.io/badge/OS-Linux-orange)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
 
+![nimbusvictory](images/nimbuspwn.png)
+https://labs.hackthebox.com/achievement/machine/2010960/912
+
 | Property | Value |
 |----------|-------|
 | **OS** | Linux |
