@@ -9,19 +9,33 @@
 ### Attack Path
 
 Contractor credentials
+
 ↓
+
 RDP into Linux workstation
+
 ↓
+
 Capture local wireless traffic
+
 ↓
+
 Recover Jenny's credentials
+
 ↓
+
 Access Craft CMS `/admin`
+
 ↓
+
 Craft CMS RCE
+
 ↓
+
 Find and decrypt mail relay password
+
 ↓
+
 SSH as `aporter`
 ↓
 CUPS privilege escalation
