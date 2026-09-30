@@ -7,6 +7,7 @@
 > **Techniques:** RDP, wireless packet capture, credential sniffing, Craft CMS, database enumeration, Craft/Yii decryption, SSH, and CUPS privilege escalation
 
 ### Attack Path
+
 Contractor credentials
 ↓
 RDP into Linux workstation
