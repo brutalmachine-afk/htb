@@ -101,7 +101,7 @@ Opening the capture in Wireshark and looking through the HTTP traffic reveals cr
 
 ```text
 Username: jenny
-Password: Fl1ghtDeck2026!
+Password: ***********
 ```
 
 These credentials work on the portal, although there isn't much useful in the normal user-facing portion of the site.
@@ -117,7 +117,7 @@ http://portal.international.htb/admin
 Jenny's credentials work there too:
 ```text
 Username: jenny
-Password: Fl1ghtDeck2026!
+Password: ***********
 ```
 
 Once logged in, the Craft version is shown at the bottom of the page.
@@ -151,7 +151,7 @@ With access to the web server, I started looking through the Craft configuration
 The project's `.env` file contains the database credentials as well as the Craft security key:
 
 ```text
-CRAFT_SECURITY_KEY=IGckihiFK64_lrSgJJ6QLkiPz-ow13Lr
+CRAFT_SECURITY_KEY=******************
 ```
 
 Using the credentials from `.env`, I connected to MariaDB and looked at the `craft` database:
