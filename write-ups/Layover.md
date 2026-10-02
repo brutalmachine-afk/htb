@@ -4,6 +4,7 @@
 > **Machine:** Layover
 > **Difficulty:** Medium
 > **Category:** Linux
+>
 > **Techniques:** RDP, wireless packet capture, credential sniffing, Craft CMS, database enumeration, Craft/Yii decryption, SSH, and CUPS privilege escalation
 
 ### Attack Path
