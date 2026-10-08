@@ -4,7 +4,9 @@
 > **Platform:** Hack The Box
 > 
 > **Machine:** Touch
+> 
 > **Difficulty:** Easy
+>
 > **Category:** Windows
 > 
 > **Techniques:** Web enumeration, unauthenticated API disclosure, weak/default authentication, client-side credential leakage, RDP, kiosk lockdown breakout via browser file execution, hardcoded database credentials, MySQL UDF privilege escalation
