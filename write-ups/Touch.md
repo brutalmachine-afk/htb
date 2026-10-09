@@ -13,21 +13,37 @@
 ## Attack Path
 
 Booking code (from Layover) 
+
 ↓ 
+
 DeviceHub API leaks device serial 
+
 ↓ 
+
 DeviceHub admin login (serial used as default password) 
+
 ↓ 
+
 Staff credentials exposed in dashboard client-side JS 
+
 ↓
+
 RDP into locked-down kiosk 
+
 ↓ 
+
 Kiosk breakout via browser file execution 
+
 ↓ 
+
 Shell as KioskUser, user flag 
+
 ↓ 
+
 Plaintext MySQL root credentials in ProgramData 
+
 ↓ 
+
 MySQL UDF abuse (service runs as LocalSystem) → SYSTEM, root flag
 
 ### 1. Initial Enumeration
