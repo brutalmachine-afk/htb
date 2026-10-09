@@ -110,7 +110,7 @@ Username: KioskUser Password: K!0sk2026#
 
 Failed against WinRM — RDP-only.
 
-### 4. Initial Access — RDP into the Kiosk
+### 4. Initial Access: RDP into the Kiosk
 
 ```
 xfreerdp /v:10.129.78.128 /u:KioskUser /p:'K!0sk2026#' /cert:ignore
@@ -217,7 +217,7 @@ C:\MySQL\bin\mysql.exe -u root -pHTB@irw4ys_DB!2026 < "C:\ProgramData\HTB Airway
 
 Username: root Password: HTB@irw4ys_DB!2026
 
-### 10. Privilege Escalation — MySQL UDF Abuse
+### 10. Privilege Escalation: MySQL UDF Abuse
 
 MySQL 8.0, LocalSystem, root creds in hand, writable plugin dir:
 
